@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "allure-js-commons": "^3.10.0",
+    "playwright": "^1.60.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.3"
+  },
+  "scripts": {}
+}
