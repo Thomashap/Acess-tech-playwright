@@ -1,4 +1,7 @@
 import { Page, Locator } from "@playwright/test";
+import { logger } from "./logger";
+
+
 import {
     FillOptions,
     ClickOptions,
@@ -14,6 +17,15 @@ export class BaseClass {
     constructor(page: Page) {
         this.page = page;
     }
+    async navigate(url: string) {
+    try {
+      logger.info(`Navigating to ${url}`);
+      await this.page.goto(url);
+    } catch (e) {
+      logger.error(`Navigate failed for ${url}: ${e}`);
+      throw e;
+    }
+  }
 
     /**
      * Method to fill value for Locator or specific input field or text area
