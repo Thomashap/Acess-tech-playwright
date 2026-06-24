@@ -35,7 +35,7 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     actionTimeout: 1000,
     /* Take a screenshot when test fails. See https://playwright.dev/docs/api/class-testoptions#test-options-screenshot */
-    screenshot: 'only-on-failure',
+        screenshot: 'only-on-failure',
     /* Opt out of waiting for the default 0.5s after each action to see if the network is idle. */
     testIdAttribute: 'data-test-id',
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */

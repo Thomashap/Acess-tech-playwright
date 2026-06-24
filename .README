@@ -1,0 +1,39 @@
+ACCESS TECH PLAYWRIGHT
+│
+├── .github
+│   └── workflows
+│       └── playwright.yml
+│
+├── env
+│   ├── .env.dev
+│   └── .env.qa
+│
+├── log
+│   └── test.log
+│
+├── node_modules
+│
+├── Real time projectRunner
+│   └── example.spec.ts
+│
+├── UI-user interface-SRC
+│   │
+│   ├── fixtures
+│   │   ├── baseFixtures.ts
+│   │   └── loginFixture.ts
+│   │
+│   ├── Loginpage
+│   │   └── Loginpage.ts
+│   │
+│   ├── reports
+│   │
+│   ├── test results
+│   │
+│   └── Utils
+│
+├── .gitignore
+├── .README
+├── package-lock.json
+├── package.json
+├── tsconfig.json  
+└── playwright.config.ts
